@@ -17,4 +17,8 @@ export class HomePage {
     console.log('Clicked!');
   }
 
+  onElementClicked() {
+    console.log('I was clicked or touched');
+  }
+
 }
