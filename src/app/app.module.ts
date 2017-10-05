@@ -21,13 +21,14 @@ import { ListPage } from '../pages/list/list';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    ListPage
+
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    ListPage
   ]
 })
 export class AppModule {}

@@ -5,5 +5,5 @@ import { Component } from '@angular/core';
   templateUrl: 'list.html',
 })
 export class ListPage {
-
+    public items:string[] = ['Apples', 'Bananas', 'Berries'];
 }
