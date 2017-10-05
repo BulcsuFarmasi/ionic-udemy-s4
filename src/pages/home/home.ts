@@ -11,9 +11,7 @@ export class HomePage {
 
   public listPage = ListPage;
 
-  constructor(public navCtrl: NavController) {
-
-  }
+  constructor(public navCtrl: NavController) {}
 
   onClick () {
     console.log('Clicked!');

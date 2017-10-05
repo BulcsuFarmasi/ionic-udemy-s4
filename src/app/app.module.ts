@@ -23,12 +23,11 @@ import { ListPage } from '../pages/list/list';
     MyApp,
     HomePage,
     ListPage
-
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
 export class AppModule {}
