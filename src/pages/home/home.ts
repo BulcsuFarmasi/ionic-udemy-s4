@@ -25,4 +25,8 @@ export class HomePage {
     console.log('I was tapped');
   }
 
+  onElementPressed () {
+    console.log('I was pressed');
+  }
+
 }
